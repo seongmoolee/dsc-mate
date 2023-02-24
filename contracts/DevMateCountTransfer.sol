@@ -3,7 +3,7 @@ pragma solidity ^0.5.6;
 import "./klaytn-contracts/token/KIP17/IKIP17Enumerable.sol";
 import "./klaytn-contracts/math/SafeMath.sol";
 
-contract MateCountTransfer {
+contract DevMateCountTransfer {
     using SafeMath for uint256;
 
     IKIP17Enumerable public mate;

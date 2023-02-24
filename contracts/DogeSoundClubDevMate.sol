@@ -5,7 +5,7 @@ import "./klaytn-contracts/token/KIP17/KIP17Mintable.sol";
 import "./klaytn-contracts/token/KIP17/KIP17Burnable.sol";
 import "./klaytn-contracts/token/KIP17/KIP17Pausable.sol";
 
-contract DogeSoundClubMate is KIP17Full("DOGESOUNDCLUB MATES", "MATE"), KIP17Mintable, KIP17Burnable, KIP17Pausable {
+contract DogeSoundClubDevMate is KIP17Full("DOGESOUNDCLUB DevMATES", "DevMATE"), KIP17Mintable, KIP17Burnable, KIP17Pausable {
 
     string public hash = "6110b42d1575f2bfb80a98cb6ce7d6743fa249b6ee2be08467487c12f5f95753";
     string public ipfs = "QmfTimyAQTQjQsnvECn9U44LdnPzSDF2XREoP2WFdjHitQ";

@@ -237,7 +237,7 @@ library SafeMath {
     }
 }
 
-contract MateCountTransfer {
+contract DevMateCountTransfer {
     using SafeMath for uint256;
 
     IKIP17Enumerable public mate;
